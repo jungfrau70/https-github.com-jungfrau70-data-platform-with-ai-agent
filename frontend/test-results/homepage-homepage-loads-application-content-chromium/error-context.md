@@ -1,0 +1,90 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - alert [ref=e4]: Welcome to Nuxt!
+    - generic [ref=e6]:
+      - heading "Nuxt 4.2.1" [level=1] [ref=e7]:
+        - link "Nuxt 4.2.1" [ref=e8] [cursor=pointer]:
+          - /url: https://nuxt.com?utm_source=nuxt-welcome
+          - img "Nuxt" [ref=e9]
+          - generic [ref=e12]: 4.2.1
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - img [ref=e16]
+          - heading "Get started" [level=2] [ref=e19]
+          - paragraph [ref=e20]:
+            - text: Remove this welcome page by replacing <NuxtWelcome/> in
+            - link "app.vue" [ref=e21] [cursor=pointer]:
+              - /url: https://nuxt.com/docs/4.x/guide/directory-structure/app
+            - text: with your own code.
+        - link "Documentation We highly recommend you take a look at the Nuxt documentation to level up." [ref=e22] [cursor=pointer]:
+          - /url: https://nuxt.com/docs?utm_source=nuxt-welcome
+          - img [ref=e24]
+          - img [ref=e27]
+          - heading "Documentation" [level=2] [ref=e29]
+          - paragraph [ref=e30]: We highly recommend you take a look at the Nuxt documentation to level up.
+      - generic [ref=e31]:
+        - link "Modules Discover our list of modules to supercharge your Nuxt project." [ref=e32] [cursor=pointer]:
+          - /url: https://nuxt.com/modules?utm_source=nuxt-welcome
+          - img [ref=e34]
+          - img [ref=e37]
+          - heading "Modules" [level=2] [ref=e39]
+          - paragraph [ref=e40]: Discover our list of modules to supercharge your Nuxt project.
+        - link "Examples Explore different way of using Nuxt features and get inspired." [ref=e41] [cursor=pointer]:
+          - /url: https://nuxt.com/docs/4.x/examples?utm_source=nuxt-welcome
+          - img [ref=e43]
+          - img [ref=e46]
+          - heading "Examples" [level=2] [ref=e48]
+          - paragraph [ref=e49]: Explore different way of using Nuxt features and get inspired.
+        - link "Deploy Learn how to deploy your Nuxt project on different providers." [ref=e50] [cursor=pointer]:
+          - /url: https://nuxt.com/deploy?utm_source=nuxt-welcome
+          - img [ref=e52]
+          - img [ref=e56]
+          - heading "Deploy" [level=2] [ref=e58]
+          - paragraph [ref=e59]: Learn how to deploy your Nuxt project on different providers.
+      - contentinfo [ref=e60]:
+        - list [ref=e61]:
+          - listitem [ref=e62]:
+            - link "Nuxt GitHub Repository" [ref=e63] [cursor=pointer]:
+              - /url: https://go.nuxt.com/github
+              - generic [ref=e64]: Nuxt GitHub Repository
+              - img [ref=e65]
+          - listitem [ref=e67]:
+            - link "Nuxt Discord Server" [ref=e68] [cursor=pointer]:
+              - /url: https://go.nuxt.com/discord
+              - generic [ref=e69]: Nuxt Discord Server
+              - img [ref=e70]
+          - listitem [ref=e72]:
+            - link "Nuxt on X" [ref=e73] [cursor=pointer]:
+              - /url: https://go.nuxt.com/x
+              - generic [ref=e74]: Nuxt on X
+              - img [ref=e75]
+          - listitem [ref=e77]:
+            - link "Nuxt Bluesky" [ref=e78] [cursor=pointer]:
+              - /url: https://go.nuxt.com/bluesky
+              - generic [ref=e79]: Nuxt Bluesky
+              - img [ref=e80]
+          - listitem [ref=e82]:
+            - link "Nuxt Linkedin" [ref=e83] [cursor=pointer]:
+              - /url: https://go.nuxt.com/linkedin
+              - generic [ref=e84]: Nuxt Linkedin
+              - img [ref=e85]
+  - generic:
+    - img
+  - generic:
+    - generic:
+      - generic:
+        - button "Go to parent" [disabled]
+        - button "Open in editor"
+        - button "Close"
+  - generic [ref=e87]:
+    - button "Toggle Nuxt DevTools" [ref=e88] [cursor=pointer]:
+      - img [ref=e89]
+    - generic "App load time" [ref=e92]:
+      - generic [ref=e93]: "527"
+      - generic [ref=e94]: ms
+    - button "Toggle Component Inspector" [ref=e96] [cursor=pointer]:
+      - img [ref=e97]
+```

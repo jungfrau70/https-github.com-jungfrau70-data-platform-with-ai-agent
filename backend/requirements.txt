@@ -1,0 +1,25 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+gunicorn==21.2.0
+pydantic==2.6.0
+pydantic-settings==2.1.0
+email-validator>=2.1.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.9
+neo4j==5.17.0
+qdrant-client==1.7.3
+langchain==0.1.5
+langchain-openai==0.0.5
+langchain-google-genai==0.0.8
+httpx==0.26.0
+python-dotenv==1.0.1
+pandas==2.2.0
+matplotlib==3.8.2
+
+
+# Testing
+pytest==8.0.0
+pytest-asyncio==0.23.5
+pytest-cov==4.1.0
+httpx==0.26.0
