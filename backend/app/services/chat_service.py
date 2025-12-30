@@ -3,9 +3,13 @@ from datetime import datetime
 from typing import List
 from app.db.neo4j import neo4j_driver
 from app.models.chat import MessageCreate, Message, Conversation
+from app.core.logger import get_logger
+
+logger = get_logger(__name__)
 
 class ChatService:
     async def create_conversation(self, user_email: str, title: str) -> Conversation:
+        logger.info(f"Creating conversation for {user_email} with title: {title}")
         conversation_id = str(uuid.uuid4())
         now = datetime.now()
         
@@ -91,7 +95,22 @@ class ChatService:
 
     # Placeholder for RAG/LLM logic
     async def get_ai_response(self, conversation_id: str, user_message: str) -> str:
-        # TODO: Implement RAG (Qdrant) and LLM (Gemini) call here
-        return f"Echo: {user_message} (AI logic not yet implemented)"
+        from app.core.agent_graph import agent_app
+        from langchain_core.messages import HumanMessage
+        
+        # Invoke the graph with the user message
+        logger.info(f"Invoking Agent Graph for conversation {conversation_id}")
+        try:
+            result = await agent_app.ainvoke({
+                "messages": [HumanMessage(content=user_message)]
+            })
+            
+            # Extract the final response
+            last_message = result["messages"][-1]
+            logger.info(f"Agent Graph returned response: {last_message.content[:50]}...")
+            return last_message.content
+        except Exception as e:
+            logger.error(f"Error invoking Agent Graph: {e}", exc_info=True)
+            return "Sorry, I encountered an error processing your request."
 
 chat_service = ChatService()

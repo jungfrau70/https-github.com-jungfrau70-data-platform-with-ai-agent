@@ -1,12 +1,13 @@
 import sys
+import os
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 
 # Enforce virtual environment usage
-if sys.prefix == sys.base_prefix:
+if sys.prefix == sys.base_prefix and not os.getenv("SKIP_VENV_CHECK"):
     print("Error: This application must be run within a virtual environment.")
-    print("Please activate your virtual environment (e.g., 'source venv/bin/activate') and try again.")
+    print("Please activate your virtual environment (e.g., 'source venv/bin/activate') or set SKIP_VENV_CHECK=1.")
     sys.exit(1)
 
 from app.api.v1.api import api_router

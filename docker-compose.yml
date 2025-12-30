@@ -1,21 +1,21 @@
-version: '3.8'
+# version: '3.8'
 
 services:
   # 1. Vector Database
   qdrant:
     image: qdrant/qdrant:latest
-    container_name: speckit-qdrant
+    container_name: gc101-qdrant
     ports:
       - "6333:6333"
     volumes:
       - qdrant_data:/qdrant/storage
     networks:
-      - speckit-network
+      - gc101-network
 
   # 2. Graph Database
   neo4j:
     image: neo4j:5.17.0
-    container_name: speckit-neo4j
+    container_name: gc101-neo4j
     ports:
       - "7474:7474" # HTTP
       - "7687:7687" # Bolt
@@ -25,27 +25,28 @@ services:
     volumes:
       - neo4j_data:/data
     networks:
-      - speckit-network
+      - gc101-network
 
   # 3. Backend (FastAPI)
   backend:
     build: 
       context: ./backend
       dockerfile: Dockerfile
-    container_name: speckit-backend
+    container_name: gc101-backend
     ports:
       - "8000:8000"
     volumes:
       - ./backend:/app
     env_file:
       - ./backend/.env.docker
-    # environment:
+    environment:
+      - WATCHFILES_FORCE_POLLING=true
     #   - MAX_WORKERS=1 # Reload logic handles workers in dev
     depends_on:
       - neo4j
       - qdrant
     networks:
-      - speckit-network
+      - gc101-network
     command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
   # 4. Frontend (Nuxt 3)
@@ -53,21 +54,26 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    container_name: speckit-frontend
+      target: build
+    container_name: gc101-frontend
     ports:
       - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules # Use container's node_modules
     environment:
       - NUXT_PUBLIC_API_BASE=http://localhost:8000/api/v1 # Access from browser
       - PORT=3000
     depends_on:
       - backend
     networks:
-      - speckit-network
+      - gc101-network
+    command: npm run dev -- --host 0.0.0.0
 
 volumes:
   neo4j_data:
   qdrant_data:
 
 networks:
-  speckit-network:
+  gc101-network:
     driver: bridge
