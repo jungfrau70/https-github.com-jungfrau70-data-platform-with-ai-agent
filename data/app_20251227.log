@@ -1,0 +1,135 @@
+2025-12-27 20:54:00 [INFO] core.logging - ✅ best_symbols 디렉토리 확인/생성 완료: /home/inhwan_jung/gotra/backend/app/best_symbols
+2025-12-27 20:54:01 [INFO] core.logging - 테스트 모드 (is_test=True, task_always_eager=False): 메모리 브로커 사용, result backend 비활성화 (Redis 연결 없음)
+2025-12-27 20:54:01 [INFO] core.logging - 테스트 모드 (is_test=True, task_always_eager=False): 메모리 브로커 사용, result backend 비활성화 (Redis 연결 없음)
+2025-12-27 20:54:02 [INFO] core.logging - 테스트 모드 (is_test=True, task_always_eager=False): 메모리 브로커 사용, result backend 비활성화 (Redis 연결 없음)
+2025-12-27 20:54:02 [INFO] core.logging - 테스트 모드 (is_test=True, task_always_eager=False): 메모리 브로커 사용, result backend 비활성화 (Redis 연결 없음)
+2025-12-27 20:54:03 [INFO] celery.tasks - [TASK START] tasks.trades.trading_tasks
+2025-12-27 20:54:35 [WARNING] core.logging - VIX 시리즈 인덱스에 중복된 값이 있습니다. 중복 제거 중...
+2025-12-27 20:54:35 [WARNING] core.logging - BPI 시리즈 인덱스에 중복된 값이 있습니다. 중복 제거 중...
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] 생성된 Signal 컬럼 목록 (16개): ['Signal_indicator_indicator', 'Signal_indicator_indicator_limit', 'Signal_indicator_indicator_indicator_limit_OR', 'Signal_indicator_indicator_indicator_limit_AND', 'Signal_indicator_limit_indicator', 'Signal_indicator_limit_indicator_limit', 'Signal_indicator_limit_indicator_indicator_limit_OR', 'Signal_indicator_limit_indicator_indicator_limit_AND', 'Signal_indicator_indicator_limit_OR_indicator', 'Signal_indicator_indicator_limit_OR_indicator_limit', 'Signal_indicator_indicator_limit_OR_indicator_indicator_limit_OR', 'Signal_indicator_indicator_limit_OR_indicator_indicator_limit_AND', 'Signal_indicator_indicator_limit_AND_indicator', 'Signal_indicator_indicator_limit_AND_indicator_limit', 'Signal_indicator_indicator_limit_AND_indicator_indicator_limit_OR', 'Signal_indicator_indicator_limit_AND_indicator_indicator_limit_AND']
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] 데이터 마지막 날짜: 2025-12-26 15:45:00-05:00
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_indicator_limit_OR): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_indicator_limit_AND): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_limit): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_indicator_limit_OR): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_indicator_limit_AND): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_limit): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_indicator_limit_OR): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_indicator_limit_AND): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_limit): 2025-12-22 15:30:00-05:00 (값: -1)
+2025-12-27 20:55:07 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_indicator_limit_OR): 2025-12-22 15:30:00-05:00 (값: -1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] 생성된 Signal 컬럼 목록 (16개): ['Signal_indicator_indicator', 'Signal_indicator_indicator_limit', 'Signal_indicator_indicator_indicator_limit_OR', 'Signal_indicator_indicator_indicator_limit_AND', 'Signal_indicator_limit_indicator', 'Signal_indicator_limit_indicator_limit', 'Signal_indicator_limit_indicator_indicator_limit_OR', 'Signal_indicator_limit_indicator_indicator_limit_AND', 'Signal_indicator_indicator_limit_OR_indicator', 'Signal_indicator_indicator_limit_OR_indicator_limit', 'Signal_indicator_indicator_limit_OR_indicator_indicator_limit_OR', 'Signal_indicator_indicator_limit_OR_indicator_indicator_limit_AND', 'Signal_indicator_indicator_limit_AND_indicator', 'Signal_indicator_indicator_limit_AND_indicator_limit', 'Signal_indicator_indicator_limit_AND_indicator_indicator_limit_OR', 'Signal_indicator_indicator_limit_AND_indicator_indicator_limit_AND']
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] 데이터 마지막 날짜: 2025-12-26 15:45:00-05:00
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit): 2025-12-23 13:15:00-05:00 (값: -1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_indicator_limit_OR): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_indicator_limit_AND): 2025-12-17 13:30:00-05:00 (값: 1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_limit): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_indicator_limit_OR): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_indicator_limit_AND): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_limit): 2025-12-23 13:15:00-05:00 (값: 1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_indicator_limit_OR): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_indicator_limit_AND): 2025-12-23 13:15:00-05:00 (값: 1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_limit): 2025-12-23 13:15:00-05:00 (값: -1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_indicator_limit_OR): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 20:55:15 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_indicator_limit_AND): 2025-12-05 15:15:00-05:00 (값: -1)
+2025-12-27 20:55:50 [INFO] celery.tasks - [TASK END] tasks.trades.trading_tasks - 완료 (status: Trading tasks completed successfully (backtest), 107.9초)
+2025-12-27 21:09:47 [INFO] apscheduler - ✅ symbol_parameters 디렉토리 확인/생성 완료: /home/inhwan_jung/gotra/backend/app/symbol_parameters
+2025-12-27 21:09:47 [INFO] apscheduler - ✅ symbol_parameters 디렉토리 확인/생성 완료: /home/inhwan_jung/gotra/backend/app/symbol_parameters
+2025-12-27 21:09:48 [INFO] apscheduler - Successfully fetched 847 symbols from kospi
+2025-12-27 21:09:48 [INFO] apscheduler - Successfully fetched 847 symbols from kospi
+2025-12-27 21:09:50 [INFO] apscheduler - Successfully fetched 1827 symbols from kosdaq
+2025-12-27 21:09:50 [INFO] apscheduler - Successfully fetched 1827 symbols from kosdaq
+2025-12-27 21:09:57 [INFO] core.logging - ✅ best_symbols 디렉토리 확인/생성 완료: /home/inhwan_jung/gotra/backend/app/best_symbols
+2025-12-27 21:09:57 [INFO] core.logging - ✅ best_symbols 디렉토리 확인/생성 완료: /home/inhwan_jung/gotra/backend/app/best_symbols
+2025-12-27 21:09:58 [INFO] core.logging - 테스트 모드 (is_test=True, task_always_eager=False): 메모리 브로커 사용, result backend 비활성화 (Redis 연결 없음)
+2025-12-27 21:09:58 [INFO] core.logging - 테스트 모드 (is_test=True, task_always_eager=False): 메모리 브로커 사용, result backend 비활성화 (Redis 연결 없음)
+2025-12-27 21:09:58 [INFO] core.logging - 테스트 모드 (is_test=True, task_always_eager=False): 메모리 브로커 사용, result backend 비활성화 (Redis 연결 없음)
+2025-12-27 21:09:58 [INFO] core.logging - 테스트 모드 (is_test=True, task_always_eager=False): 메모리 브로커 사용, result backend 비활성화 (Redis 연결 없음)
+2025-12-27 21:09:59 [INFO] core.logging - 테스트 모드 (is_test=True, task_always_eager=False): 메모리 브로커 사용, result backend 비활성화 (Redis 연결 없음)
+2025-12-27 21:09:59 [INFO] core.logging - 테스트 모드 (is_test=True, task_always_eager=False): 메모리 브로커 사용, result backend 비활성화 (Redis 연결 없음)
+2025-12-27 21:09:59 [INFO] core.logging - 테스트 모드 (is_test=True, task_always_eager=False): 메모리 브로커 사용, result backend 비활성화 (Redis 연결 없음)
+2025-12-27 21:09:59 [INFO] core.logging - 테스트 모드 (is_test=True, task_always_eager=False): 메모리 브로커 사용, result backend 비활성화 (Redis 연결 없음)
+2025-12-27 21:09:59 [INFO] celery.tasks - [TASK START] tasks.trades.trading_tasks
+2025-12-27 21:09:59 [INFO] celery.tasks - [TASK START] tasks.trades.trading_tasks
+2025-12-27 21:10:26 [WARNING] core.logging - VIX 시리즈 인덱스에 중복된 값이 있습니다. 중복 제거 중...
+2025-12-27 21:10:26 [WARNING] core.logging - VIX 시리즈 인덱스에 중복된 값이 있습니다. 중복 제거 중...
+2025-12-27 21:10:26 [WARNING] core.logging - BPI 시리즈 인덱스에 중복된 값이 있습니다. 중복 제거 중...
+2025-12-27 21:10:26 [WARNING] core.logging - BPI 시리즈 인덱스에 중복된 값이 있습니다. 중복 제거 중...
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] 생성된 Signal 컬럼 목록 (16개): ['Signal_indicator_indicator', 'Signal_indicator_indicator_limit', 'Signal_indicator_indicator_indicator_limit_OR', 'Signal_indicator_indicator_indicator_limit_AND', 'Signal_indicator_limit_indicator', 'Signal_indicator_limit_indicator_limit', 'Signal_indicator_limit_indicator_indicator_limit_OR', 'Signal_indicator_limit_indicator_indicator_limit_AND', 'Signal_indicator_indicator_limit_OR_indicator', 'Signal_indicator_indicator_limit_OR_indicator_limit', 'Signal_indicator_indicator_limit_OR_indicator_indicator_limit_OR', 'Signal_indicator_indicator_limit_OR_indicator_indicator_limit_AND', 'Signal_indicator_indicator_limit_AND_indicator', 'Signal_indicator_indicator_limit_AND_indicator_limit', 'Signal_indicator_indicator_limit_AND_indicator_indicator_limit_OR', 'Signal_indicator_indicator_limit_AND_indicator_indicator_limit_AND']
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] 생성된 Signal 컬럼 목록 (16개): ['Signal_indicator_indicator', 'Signal_indicator_indicator_limit', 'Signal_indicator_indicator_indicator_limit_OR', 'Signal_indicator_indicator_indicator_limit_AND', 'Signal_indicator_limit_indicator', 'Signal_indicator_limit_indicator_limit', 'Signal_indicator_limit_indicator_indicator_limit_OR', 'Signal_indicator_limit_indicator_indicator_limit_AND', 'Signal_indicator_indicator_limit_OR_indicator', 'Signal_indicator_indicator_limit_OR_indicator_limit', 'Signal_indicator_indicator_limit_OR_indicator_indicator_limit_OR', 'Signal_indicator_indicator_limit_OR_indicator_indicator_limit_AND', 'Signal_indicator_indicator_limit_AND_indicator', 'Signal_indicator_indicator_limit_AND_indicator_limit', 'Signal_indicator_indicator_limit_AND_indicator_indicator_limit_OR', 'Signal_indicator_indicator_limit_AND_indicator_indicator_limit_AND']
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] 데이터 마지막 날짜: 2025-12-26 15:45:00-05:00
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] 데이터 마지막 날짜: 2025-12-26 15:45:00-05:00
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_indicator_limit_OR): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_indicator_limit_OR): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_indicator_limit_AND): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_indicator_limit_AND): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_limit): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_limit): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_indicator_limit_OR): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_indicator_limit_OR): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_indicator_limit_AND): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_indicator_limit_AND): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_limit): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_limit): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_indicator_limit_OR): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_indicator_limit_OR): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_indicator_limit_AND): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_indicator_limit_AND): 2025-12-26 15:15:00-05:00 (값: 1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_limit): 2025-12-22 15:30:00-05:00 (값: -1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_limit): 2025-12-22 15:30:00-05:00 (값: -1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_indicator_limit_OR): 2025-12-22 15:30:00-05:00 (값: -1)
+2025-12-27 21:10:57 [WARNING] core.logging - [AEP] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_indicator_limit_OR): 2025-12-22 15:30:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] 생성된 Signal 컬럼 목록 (16개): ['Signal_indicator_indicator', 'Signal_indicator_indicator_limit', 'Signal_indicator_indicator_indicator_limit_OR', 'Signal_indicator_indicator_indicator_limit_AND', 'Signal_indicator_limit_indicator', 'Signal_indicator_limit_indicator_limit', 'Signal_indicator_limit_indicator_indicator_limit_OR', 'Signal_indicator_limit_indicator_indicator_limit_AND', 'Signal_indicator_indicator_limit_OR_indicator', 'Signal_indicator_indicator_limit_OR_indicator_limit', 'Signal_indicator_indicator_limit_OR_indicator_indicator_limit_OR', 'Signal_indicator_indicator_limit_OR_indicator_indicator_limit_AND', 'Signal_indicator_indicator_limit_AND_indicator', 'Signal_indicator_indicator_limit_AND_indicator_limit', 'Signal_indicator_indicator_limit_AND_indicator_indicator_limit_OR', 'Signal_indicator_indicator_limit_AND_indicator_indicator_limit_AND']
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] 생성된 Signal 컬럼 목록 (16개): ['Signal_indicator_indicator', 'Signal_indicator_indicator_limit', 'Signal_indicator_indicator_indicator_limit_OR', 'Signal_indicator_indicator_indicator_limit_AND', 'Signal_indicator_limit_indicator', 'Signal_indicator_limit_indicator_limit', 'Signal_indicator_limit_indicator_indicator_limit_OR', 'Signal_indicator_limit_indicator_indicator_limit_AND', 'Signal_indicator_indicator_limit_OR_indicator', 'Signal_indicator_indicator_limit_OR_indicator_limit', 'Signal_indicator_indicator_limit_OR_indicator_indicator_limit_OR', 'Signal_indicator_indicator_limit_OR_indicator_indicator_limit_AND', 'Signal_indicator_indicator_limit_AND_indicator', 'Signal_indicator_indicator_limit_AND_indicator_limit', 'Signal_indicator_indicator_limit_AND_indicator_indicator_limit_OR', 'Signal_indicator_indicator_limit_AND_indicator_indicator_limit_AND']
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] 데이터 마지막 날짜: 2025-12-26 15:45:00-05:00
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] 데이터 마지막 날짜: 2025-12-26 15:45:00-05:00
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit): 2025-12-23 13:15:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit): 2025-12-23 13:15:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_indicator_limit_OR): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_indicator_limit_OR): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_indicator_limit_AND): 2025-12-17 13:30:00-05:00 (값: 1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_indicator_limit_AND): 2025-12-17 13:30:00-05:00 (값: 1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_limit): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_limit): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_indicator_limit_OR): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_indicator_limit_OR): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_indicator_limit_AND): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_limit_indicator_indicator_limit_AND): 2025-12-26 15:45:00-05:00 (값: 1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_limit): 2025-12-23 13:15:00-05:00 (값: 1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_limit): 2025-12-23 13:15:00-05:00 (값: 1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_indicator_limit_OR): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_indicator_limit_OR): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_indicator_limit_AND): 2025-12-23 13:15:00-05:00 (값: 1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_OR_indicator_indicator_limit_AND): 2025-12-23 13:15:00-05:00 (값: 1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_limit): 2025-12-23 13:15:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_limit): 2025-12-23 13:15:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_indicator_limit_OR): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_indicator_limit_OR): 2025-12-24 09:30:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_indicator_limit_AND): 2025-12-05 15:15:00-05:00 (값: -1)
+2025-12-27 21:11:06 [WARNING] core.logging - [ADPT] ✅ 최근 신호 발견 (Signal_indicator_indicator_limit_AND_indicator_indicator_limit_AND): 2025-12-05 15:15:00-05:00 (값: -1)
+2025-12-27 21:11:40 [INFO] celery.tasks - [TASK END] tasks.trades.trading_tasks - 완료 (status: Trading tasks completed successfully (backtest), 100.6초)
+2025-12-27 21:11:40 [INFO] celery.tasks - [TASK END] tasks.trades.trading_tasks - 완료 (status: Trading tasks completed successfully (backtest), 100.6초)
